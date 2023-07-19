@@ -1,0 +1,101 @@
+/* ------------------------ Vishwajith --------------------- */
+.navbar-text-center {
+  display: flex;position: relative;
+  justify-content: center !important;
+}
+.navbar-text-center i{
+  position: absolute;left: 5%;color:#3f5797 ; cursor: pointer;
+}
+
+.title {
+  color: #3f5797;
+}
+
+.todo_add_section {
+  display: flex;
+  width: 100%;
+}
+
+.add_btn {
+  width: 25%;
+  border: 1px solid #d5d5d7;
+  color: green;
+}
+
+
+
+.row {
+  display: flex;
+  margin: 10% 3% 0px 3%;
+  justify-content: space-evenly;
+}
+
+.col-75 {
+  width: 75%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.input {
+  width: 100%;
+  height: 2.3rem !important;
+  border-bottom: 2px solid #ac3b3b !important;
+  padding: 10px !important;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #dbe2f9;
+  color: #394052;
+  border: none;
+  border-radius: 25px;
+}
+
+button:active {
+  background-color: pink;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+}
+
+.toolbar-icon {
+  width:3.5rem;
+  height: 3.5rem;
+  /* background: #d9ebff; */
+  display: flex;
+  /* color: #000 !important; */
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.toolbar-icon a i{
+  color: #1f2225;
+}
+
+.toolbar-active a i{
+  color: #066be6 !important;
+}
+
+.toolbar-active,.toolbar-icon:active{
+  background-color:#cbdff4;
+}
+
+
+.toolbar-icon a i:active{
+  color: #6197da;
+}
+
+.toolbar-inner {
+  justify-content: space-around !important;
+  background-color: #efeff4;
+  left: 2%;
+  top: 5% !important;
+  width: 95%;
+  border-radius: 35px;
+  height: 90% !important;
+}
