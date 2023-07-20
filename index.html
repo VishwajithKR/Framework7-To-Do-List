@@ -40,9 +40,15 @@
                 <!-- additional "navbar-large" class -->
                 <div class="navbar">
                     <div class="navbar-bg"></div>
-                    <div class="navbar-inner sliding navbar-text-center">
-                        <div class="col-90">
-                           
+                    <div class="navbar-inner col-95">
+                        <div class="title" style="color: rgba(18, 18, 18, 0.94);">Hi Vimal, Your P & D</div>
+                        <div class="right">
+                            <div class="toolbar_icon_home">
+                                <i class="f7-icons">search</i>
+                            </div>
+                            <div class="toolbar_icon_home">
+                                <i class="f7-icons">bell</i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -56,7 +62,7 @@
                             </a>
                         </div>
                         <div class="toolbar-icon">
-                            <a href="/about/" data-name="about"  class="tab-link">
+                            <a href="/about/" data-name="about" class="tab-link">
                                 <i class="f7-icons">list_number</i>
                             </a>
                         </div>
@@ -74,20 +80,51 @@
 
                 <!-- Scrollable page content -->
                 <div class="page-content">
-                    <div class="row">
-                        <div class="col-75">
-                            <input type="text" placeholder="Enter the task" id="input" class="input">
-                        </div>
-                        <div class="col-20">
-                            <button id="add" onclick="addTodo()">Add</button>
-                        </div>
+                    <div class="row home">
+                        <!-- section 1 -->
+                            <div class="home_page_content col-98">
+                                <h3> <span>1,</span>
+                                    <span>Raj</span>
+                                    <span class="home_pickup1">P</span>
+                                    <span class="home_pickup1">(11 to 12)</span>
+                                    <span>GMap</span>
+                                    <span>Call</span>
+                                </h3>
+    
+                                <div class="home_page_subtitle">
+                                    <h5>
+                                        <span class="home_subtitle1">Address Line 1,</span>
+                                        <span class="home_subtitle1">Address Line 2</span>
+                                        <span><button class="home_btn"><h5>Pickup</h5></button></span>
+                                    </h5>
+                                </div>
+                            </div>  
+
+                            <!-- section 2 -->
+                            <div class="home_page_content col-98">
+                                <h3> <span>2,</span>
+                                    <span>Ram</span>
+                                    <span class="home_pickup2">D</span>
+                                    <span class="home_pickup2">(11 to 12)</span>
+                                    <span>GMap</span>
+                                    <span>Call</span>
+                                </h3>
+    
+                                <div class="home_page_subtitle">
+                                    <h5>
+                                        <span class="home_subtitle2">Address Line 1,</span>
+                                        <span class="home_subtitle2">Address Line 2</span>
+                                        <span><button class="home_btn home_btn2"><h5>Deliver</h5></button></span>
+                                    </h5>
+                                </div>
+                            </div>  
+                       
+                       
                     </div>
 
-                    <div class="list list-strong list-outline-ios list-dividers-ios inset-md">
-                        <ul id="todoList">
 
-                        </ul>
-                    </div>
+
+
 
                 </div>
             </div>
