@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'regular_b';
+  src: url('/fonts/custom/LibreBaskerville-Bold.ttf');
+}
+@font-face {
+  font-family: 'regular';
+  src: url('/fonts/custom/LibreBaskerville-Regular.ttf');
+}
+
+
 /* ------------------------ Vishwajith --------------------- */
 .navbar-text-center {
   display: flex;
@@ -50,22 +60,25 @@
 .input {
   width: 100%;
   height: 2.3rem !important;
-  border-bottom: 2px solid #ac3b3b !important;
+  border-bottom: 2px solid #3f5797 !important;
   padding: 10px !important;
+}
+
+#add:active {
+  border: 2px solid #6d8efa;
+  background-color: #c5f5b1;
 }
 
 button {
   width: 100%;
   padding: 10px;
-  background-color: #dbe2f9;
+  background-color: #339dff;
   color: #394052;
   border: none;
   border-radius: 25px;
 }
 
-button:active {
-  background-color: pink;
-}
+
 
 .toolbar {
   display: flex;
@@ -227,7 +240,7 @@ button:active {
   border-radius: 6px;
 }
 
-.item-media {
+.profile_dp {
   width: 2.5rem;
   height: 2.5rem;
   background: #066be624;
@@ -240,16 +253,30 @@ button:active {
 .list .item-content {
   display: flex;
   background: #cbdff49c;
-  margin: 12px 11px; height: 2.5rem;
+  margin: 12px 11px;
+  height: 2.5rem;
   border-radius: 10px;
 }
 
 .list .item-content:active {
-  background: #7bb8fa9c ;
-color: white;
+  background: #7bb8fa9c;
+  color: white;
 }
 
 .message_tab {
   background-color: unset !important;
   padding-top: 13%;
+}
+
+.todo_btn a {
+  height: 2.5rem;
+  width: 3rem;
+  margin-top: 7%;
+  display: flex;justify-content: center;
+ 
+}
+.todo_btn1 a {
+  height: 2.5rem;
+  width: 3rem;
+  margin-top: 17%;
 }

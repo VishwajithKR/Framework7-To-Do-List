@@ -52,17 +52,17 @@ function loadTodo() {
             // ------ true function ----- //
             todoList.innerHTML += ` <li class="swipeout">
             <div class="item-content swipeout-content">
-                <div class="item-media">
+                <div class="item-media profile_dp">
                     <i class="f7-icons size-22" style="color: green;">checkmark_2</i>
                 </div>
                 <div class="item-inner">
-                    <div class="item-title">${todos[i].title}</div>
+                    <div class="item-title" style="font-family: regular; text-transform:capitalize;font-size: 12px;">${todos[i].title}</div>
                 </div>
                 <div class="item-media">
                     <i class="f7-icons size-22 ">chevron_right_2</i>
                 </div>
             </div>
-            <div class="swipeout-actions-right">
+            <div class="swipeout-actions-right todo_btn1">
 
                 <a style="background-color: red;" onclick="deleteList('${todos[i].id}')">Delete</a>
             </div>
@@ -71,17 +71,17 @@ function loadTodo() {
             // ------ false function ----- //
             todoList.innerHTML += ` <li class="swipeout">
                                 <div class="item-content swipeout-content">
-                                    <div class="item-media">
+                                    <div class="item-media profile_dp">
                                         <i class="f7-icons size-22" style="color: red;">alarm</i>
                                     </div>
                                     <div class="item-inner">
-                                        <div class="item-title">${todos[i].title}</div>
+                                        <div class="item-title" style="font-family: regular; text-transform:capitalize; font-size: 12px;">${todos[i].title}</div>
                                     </div>
                                     <div class="item-media">
                                         <i class="f7-icons size-22 ">chevron_right_2</i>
                                     </div>
                                 </div>
-                                <div class="swipeout-actions-right">
+                                <div class="swipeout-actions-right todo_btn">
                                     <a  style="background-color: green;" onclick="readList('${todos[i].id}')">Compelete</a>
                                     <a style="background-color:red;" onclick="deleteList('${todos[i].id}')">Delete</a>
                                 </div>
