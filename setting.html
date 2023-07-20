@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+
+    <!-- Your app title -->
+    <title>To-Do App</title>
+
+    <!-- Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="./framwork7_source/framework7-bundle.min.css">
+
+    <!--  custom css styles-->
+    <link rel="stylesheet" href="./css/app.css">
+
+    <!-- icon css file  -->
+    <link rel="stylesheet" href="./framwork7_source/framework7-icon-bundle-min.css">
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+
+                <!-- Top Navbar -->
+
+                <!-- additional "navbar-large" class -->
+                <div class="navbar">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner sliding navbar-text-center">
+                        <i class="f7-icons " onclick="history.back()">chevron_compact_left</i>
+                        <div class="title">Settings</div>
+                    </div>
+                </div>
+
+                <div class="toolbar tabbar-icons toolbar-bottom">
+                    <div class="toolbar-inner">
+                        <div class="toolbar-icon">
+                            <a href="#tab-1" class="tab-link tab-link-active">
+                                <i class="f7-icons">house_alt</i>
+                            </a>
+                        </div>
+                        <div class="toolbar-icon">
+                            <a href="/about/" data-route-tab-id="about" class="tab-link">
+                                <i class="f7-icons">list_number</i>
+                            </a>
+                        </div>
+                        <div class="toolbar-icon"> <a href="#tab-3" class="tab-link">
+                                <i class="f7-icons">ellipses_bubble</i>
+                            </a>
+                        </div>
+                        <div class="toolbar-icon toolbar-active">
+                            <a href="#tab-3" class="tab-link">
+                                <i class="f7-icons">gear_alt</i>
+                            </a>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+                <!-- Scrollable page content -->
+
+
+                <div class="page-content">
+                   
+                       
+                        <div class="block-title">Data and Device setting</div>
+                        <div class="list list-outline-ios list-strong-ios list-dividers-ios">
+                          <ul>
+                            <li>
+                                <a class="item-link item-content">
+                                  <div class="item-media setting_icon"><i class="f7-icons" style="color: #1883db;">wifi</i></div>
+                                  <div class="item-inner">
+                                    <div class="item-title">Network & Internet</div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a class="item-link item-content">
+                                  <div class="item-media setting_icon"><i class="f7-icons" style="color: #f7a000;">ellipsis_circle_fill</i></div>
+                                  <div class="item-inner">
+                                    <div class="item-title">Bluetooth & Devices</div>
+                                  </div>
+                                </a>
+                              </li>
+                          </ul>
+                        </div>
+                        <div class="block-title">Theme and Media setting</div>
+                        <div class="list list-outline-ios list-strong-ios list-dividers-ios">
+                          <ul>
+                            <li>
+                              <a class="item-link item-content">
+                                <div class="item-media setting_icon"><i class="f7-icons" style="color: #f7e85b;">sun_min_fill</i></div>
+                                <div class="item-inner">
+                                  <div class="item-title">Dark & Light </div>
+                                  <div class="item-after">Light</div>
+                                </div>
+                              </a>
+                            </li>
+                          
+                            
+                            
+                            <li>
+                              <a class="item-link item-content">
+                                <div class="item-media setting_icon"><i class="f7-icons" style="color: #31d780;">layers_fill</i></div>
+                                <div class="item-inner">
+                                  <div class="item-title">Dynamic effects</div>
+                                </div>
+                              </a>
+                            </li>
+                            <li>
+                                <a class="item-link item-content">
+                                  <div class="item-media setting_icon"><i class="f7-icons" style="color: #d754d4;">headphones</i></div>
+                                  <div class="item-inner">
+                                    <div class="item-title">Sound & Vibration</div>
+                                  </div>
+                                </a>
+                              </li>
+                           
+                              <li>
+                                <div class="item-content">
+                                  <div class="item-media setting_icon"><i class="f7-icons" style="color: #ec4134;">app_badge_fill</i></div>
+                                  <div class="item-inner">
+                                    <div class="item-title">Notification</div>
+                                    <div class="item-after"> <span class="badge">5</span></div>
+                                  </div>
+                                </div>
+                              </li>
+                          </ul>
+                        </div>
+
+                        <div class="block-title">Account setting</div>
+                        <div class="list list-outline-ios list-strong-ios list-dividers-ios">
+                          <ul>
+                            <li>
+                                <a class="item-link item-content">
+                                  <div class="item-media setting_icon"><i class="f7-icons" style="color: #86bf1c;">lock_shield_fill</i></div>
+                                  <div class="item-inner">
+                                    <div class="item-title">Security</div>
+                                    <div class="item-after">Cleaner</div>
+                                  </div>
+                                </a>
+                              </li>
+                          
+                            <li>
+                                <a class="item-link item-content">
+                                  <div class="item-media setting_icon"><i class="f7-icons" style="color: #4c4c84;">metronome</i></div>
+                                  <div class="item-inner">
+                                    <div class="item-title">Privacy</div>
+                                  </div>
+                                </a>
+                              </li>
+                            <li>
+                                <a class="item-link item-content">
+                                  <div class="item-media setting_icon"><i class="f7-icons" style="color: #a76361;">location_circle_fill</i></div>
+                                  <div class="item-inner">
+                                    <div class="item-title">Permissions</div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a class="item-link item-content">
+                                    <div class="item-media setting_icon"><i class="f7-icons" style="color: #00dd94;">arrow_merge</i></div>
+                                    <div class="item-inner">
+                                      <div class="item-title">Accessibility</div>
+                                    </div>
+                                  </a>
+                              </li>
+                              <li>
+                                <a class="item-link item-content">
+                                  <div class="item-media setting_icon"><i class="f7-icons" style="color: #f7e28f;">chart_pie_fill</i></div>
+                                  <div class="item-inner">
+                                    <div class="item-title">Storage settings</div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a class="item-link item-content">
+                                  <div class="item-media setting_icon"><i class="f7-icons" style="color: #28c144;">arrow_up_circle_fill</i></div>
+                                  <div class="item-inner">
+                                    <div class="item-title">About app</div>
+                                  </div>
+                                </a>
+                              </li>
+                             
+                              
+                              
+                             
+                          </ul>
+                        </div>
+                        
+                    
+                     
+
+                </div>
+
+
+
+
+
+                <!-- Bottom Toolbar -->
+
+
+            </div>
+        </div>
+
+        <!-------- Custom js --------->
+        <script src="./js/to_do.js"></script>
+
+        <!-- Framework7 Library Bundle JS-->
+        <script type="text/javascript" src="./framwork7_source/framework7-bundle.min.js"></script>
+
+        <!-- app js-->
+        <script type="text/javascript" src="./js/app.js"></script>
+</body>
+
+</html>

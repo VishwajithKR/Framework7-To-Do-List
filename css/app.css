@@ -37,6 +37,9 @@
 .col-20 {
   width: 20%;
 }
+.col-90 {
+  width: 90%;
+}
 
 .input {
   width: 100%;
@@ -99,3 +102,15 @@ button:active {
   border-radius: 35px;
   height: 90% !important;
 }
+.setting_icon{
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #cbdff4a6;border-radius: 50%;
+  display: flex;
+  justify-content: center;align-items: center;
+}
+.list .item-content {
+  display: flex;
+  background:#cbdff49c;
+  margin: 6px 3px;
+  border-radius: 6px;}
