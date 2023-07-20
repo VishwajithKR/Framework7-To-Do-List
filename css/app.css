@@ -96,20 +96,24 @@ button:active {
   border-radius: 15px;
   display: grid;
   padding: 10px 5px;
-margin: 2% 0px;
+  margin: 2% 0px;
 }
-.page-content{
+
+.page-content {
   background-color: #dedede;
 }
 
 .col-98 {
   width: 98%;
 }
-.home{
+
+.home {
   margin-top: 3%;
 }
+
 .home_page_content h3 {
-  margin: 0px;color: #0f1316e2;
+  margin: 0px;
+  color: #0f1316e2;
   display: flex;
   justify-content: space-evenly;
 }
@@ -117,9 +121,11 @@ margin: 2% 0px;
 .home_page_content h5 {
   margin: 0px;
 }
+
 .home_pickup1 {
   color: #405ca9 !important;
 }
+
 .home_pickup2 {
   color: #c97e5a !important;
 }
@@ -127,17 +133,21 @@ margin: 2% 0px;
 .home_subtitle1 {
   color: #9ca7cf;
 }
+
 .home_subtitle2 {
   color: #df7f50;
 }
-.home_btn2{
-background-color: #f26c2e !important;
+
+.home_btn2 {
+  background-color: #f26c2e !important;
 }
-.home_btn:active{
+
+.home_btn:active {
   background-color: #8797ec;
 }
-.home_btn2:active{
-background-color: #f65307 !important;
+
+.home_btn2:active {
+  background-color: #f65307 !important;
 
 }
 
@@ -151,7 +161,8 @@ background-color: #f65307 !important;
 .home_btn {
   width: 4rem;
   height: 1rem;
-  margin-left: 39%;border-radius: 5px;
+  margin-left: 39%;
+  border-radius: 5px;
   background-color: #aeb8ec;
   color: white;
   display: flex;
@@ -229,15 +240,16 @@ background-color: #f65307 !important;
 .list .item-content {
   display: flex;
   background: #cbdff49c;
-  margin: 6px 11px;
+  margin: 12px 11px; height: 2.5rem;
   border-radius: 10px;
 }
 
-
-.home_toolbar {
-  display: flex;
+.list .item-content:active {
+  background: #7bb8fa9c ;
+color: white;
 }
 
-.toolbar_icon {
-  /* display: fl */
+.message_tab {
+  background-color: unset !important;
+  padding-top: 13%;
 }
